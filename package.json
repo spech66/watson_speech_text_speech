@@ -1,0 +1,28 @@
+{
+  "name": "wstt",
+  "version": "1.0.0",
+  "description": "Speech to Text to Speech",
+  "main": "app.js",
+  "scripts": {
+    "test": "node speech_text_speech.js",
+    "start": "node speech_text_speech.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:spech66/watson_speech_text_speech.git"
+  },
+  "keywords": [
+    "Watson",
+    "IBM",
+    "Speech",
+    "To",
+    "Text",
+    "STT",
+    "Raspberry Pi"
+  ],
+  "author": "Sebastian Pech",
+  "dependencies": {
+    "mic": "^2.1.1",
+    "watson-developer-cloud": "^2.0.0"
+  }
+}
